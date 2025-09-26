@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  background: #111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text with Image Background */
+.festival-title {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: url("assets/festival-bg.jpg") center/cover no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
